@@ -1,0 +1,14 @@
+POST http://localhost:7071/api/orchestrators/OnboardingOrchestrator
+content-type: application/json
+
+{
+    "name": "Johnny Lawrence",
+    "email": "johnny.lawrence@eaglefang.com",
+    "startdate": "01.02.2022",
+    "role": "developer"
+} 
+
+###  1.b Fetch result from status endpoint
+#reference
+@id1={{onboardingRequest.response.body.$.id}}
+GET http://localhost:7071/runtime/webhooks/durabletask/instances/{{id1}}
