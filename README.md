@@ -1,4 +1,10 @@
-#  Azure Durable Functions - Advanced Patterns (TypeScript)
+ 
+<img src="img/zappy-192.gif" height="150px"/>
+
+# Based on [Azure Durable Functions - Advanced Patterns (TypeScript)](https://github.com/marcduiker/azure-functions-university/blob/main/lessons/typescript/durable-functions/advanced/README.md)
+
+
+
 
 
 - [Notes to the Lesson](https://github.com/marcduiker/azure-functions-university/blob/main/lessons/typescript/durable-functions/advanced/README.md)
@@ -19,4 +25,3 @@
 3. External Event - Human Interaction
 
 
-48:21 / 1:10:57
